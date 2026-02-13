@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ *{
+   margin: 0;
+   padding: 0;
+   font-family: poppins;
+   font-family: sans-serif;
+  
+
+ }
+ body{
+    background-color: aliceblue;
+    overflow-x: hidden;
+ }
+ .one{
+    text-align: center;
+    padding:10px;
+    color:blue;
+ }
+ .image{
+    border-radius: 50%;
+height: 300px;
+width: 300px;
+padding: 5px;
+object-fit: cover;
+object-position: center;
+background: rgb(159, 32, 170);
+
+}
+.two{
+    padding: 30px;
+    text-align: center;
+  
+}
+.three{
+    text-align: center;
+    color: #411cc7;
+   
+   
+  
+  
+}
+.three:hover{
+   
+transform: translate(500px);
+transition-duration: 5s;
+transform: scale(2);
+transition-duration: 3s;
+
+
+border-radius: 60%;
+object-fit: cover;
+object-position: center;
+}
+
+.two,.three,.one:hover{
+    cursor: pointer;
+}
+
+
+
+.four{
+
+    
+ color: black;
+ 
+}
+.two:hover{
+   transform: rotate(30deg);
+    transition-duration: 4s;
+    transform: rotatey(195deg);
+
+}
+.five{
+color: black;
+}
+.six{
+    color: black;
+}
+.nine{
+    margin-left:  20%;
+}
+ul{
+    margin-left: 20px;
+}
+.in{
+    padding: 15px;
+    margin-left: 30%;
+    
+}
+
+@media screen and (max-width: 600px){
+    
+     
+
+}
